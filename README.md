@@ -4,6 +4,8 @@ MailScout is a Python library designed for finding business email addresses and 
 
 It offers a range of tools for email validation, SMTP checks, and generating potential business email addresses based on provided names and common naming conventions.
 
+Important: The library requires your outgoing port 25 to be open to perform SMTP actions. Some cloud services block the port by default (like AWS lambda), and you should configure your cloud network accordingly if Mailscout doesn't work properly. You may try Mailscout on Google Colab without any problem.
+
 ## Features
 
 - Generate and find potential business email addresses based on provided names and common patterns.
