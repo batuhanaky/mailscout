@@ -1,0 +1,7 @@
+mailscout/__pycache__
+.eggs/
+mailscout.egg-info
+tests/__pycache__
+.pytest_cache/
+dist/
+build/

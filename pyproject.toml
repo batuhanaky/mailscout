@@ -1,0 +1,25 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mailscout"
+version = "0.1.1"
+description = "MailScout is a Python library designed for finding business email addresses and simple email validation. It offers a range of tools for email validation, SMTP checks, email normalization, and generating potential business email addresses based on common naming conventions/employee name combinations."
+readme = "README.md"
+authors = [{ name = "Batuhan Akyazı", email = "batuhanakydev@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["email", "marketing", "email-finder", "email-validation"]
+dependencies = ["dnspython", "unidecode"]
+requires-python = ">=3.7"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/batuhanaky/mailscout"
