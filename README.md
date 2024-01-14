@@ -167,3 +167,9 @@ print(normalized_name2)
 # 'dzirzyterg'
 
 ```
+
+##License
+MailScout is released under the MIT License.
+
+##Contact
+For questions or feedback, please contact Batuhan Akyazı. (batuhanakydev@gmail.com)
